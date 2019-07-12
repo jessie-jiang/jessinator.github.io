@@ -24,7 +24,10 @@ for (i = 0; i < coll.length; i++) {
 }
 
 coll = document.getElementsByClassName("collapsible");
+<<<<<<< HEAD
 
+=======
+>>>>>>> dff196606158f95b825867664c9b917385d05d05
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
