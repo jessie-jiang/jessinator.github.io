@@ -2,6 +2,10 @@
 <html>
 
   <head>
+
+    <link rel="stylesheet" type="text/css" href="favmusic.css">
+    <script src="favmusic.js"> </script>
+
     <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
     <style>
       .map {
@@ -13,12 +17,17 @@
     <script src="map.js"></script>
 
     <title>OpenLayers example</title>
-
-    <link rel="stylesheet" type="text/css" href="favmusic.css">
-    <script src="favmusic.js"> </script>
   </head>
 
   <body>
+    <h2>My Map</h2>
+    <button onclick="panChad()">Pan to Chad ( ͡° ͜ʖ ͡°)</button>
+
+    <button onclick="spinGreece()">Gyrate to gyro land</button>
+
+    <div id="map" class="map"></div>
+
+
     <h1>Jessie's Current Listens</h1>
     <h2>Click to listen on Spotify!</h2>
 
@@ -31,12 +40,6 @@
     </p>
     <p>
 
-    <h2>My Map</h2>
-    <button onclick="panChad()">Pan to Chad ( ͡° ͜ʖ ͡°)</button>
-
-    <button onclick="spinGreece()">Gyrate to gyro land</button>
-
-    <div id="map" class="map"></div>
 
       Categories:
       <div id = "Pop">
